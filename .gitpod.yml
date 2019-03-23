@@ -1,0 +1,7 @@
+image:
+  file: Dockerfile
+  context: ctx
+ports:
+- port: 8080
+tasks:
+- command: apache-fg
