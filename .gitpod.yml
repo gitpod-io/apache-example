@@ -1,7 +1,7 @@
 image:
   file: Dockerfile
-  context: ctx
 ports:
 - port: 8080
+  onOpen: open-browser
 tasks:
-- command: apache-fg
+- command: ./launch-apache.sh
