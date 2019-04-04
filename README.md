@@ -2,7 +2,7 @@
 
 ## Try or Contribute
 
-open [https://gitpod.io#https://github.com/meysholdt/apache-in-gitpod-example](https://gitpod.io#https://github.com/meysholdt/apache-in-gitpod-example)
+open [https://gitpod.io#https://github.com/gitpod-io/apache-example](https://gitpod.io#https://github.com/gitpod-io/apache-example)
 
 ## What this Example does
 
