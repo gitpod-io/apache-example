@@ -1,16 +1,10 @@
-FROM gitpod/workspace-full
+FROM gitpod/workspace-full:branch-apache
 
-USER root
+# optional: use a custom apache config.
+COPY apache.conf /etc/apache2/apache2.conf
 
-# install via Ubuntu's APT:
-# * Apache - the web server
-# * Multitail - see logs live in the terminal
-RUN apt-get update \
- && apt-get -y install apache2 multitail \
- && apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/*
+# optional: change apache port
+ENV APACHE_PORT=8080
 
-# 1. give write permission to the gitpod-user to apache directories
-# 2. let Apache use apache.conf and apache.env.sh from our /workspace/<myproject> folder
-RUN chown -R gitpod:gitpod /var/run/apache2 /var/lock/apache2 /var/log/apache2 \
- && echo "include \${GITPOD_REPO_ROOT}/apache.conf" > /etc/apache2/apache2.conf \
- && echo ". \${GITPOD_REPO_ROOT}/apache.env.sh" > /etc/apache2/envvars
+# optional: change document root folder. It's relative to your git working copy.
+ENV APACHE_DOCROOT_IN_REPO="www"
