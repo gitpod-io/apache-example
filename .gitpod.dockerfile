@@ -1,5 +1,7 @@
 FROM gitpod/workspace-full:branch-apache
 
+ENV x=1
+
 # optional: use a custom apache config.
 COPY apache.conf /etc/apache2/apache2.conf
 
