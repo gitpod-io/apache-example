@@ -2,7 +2,7 @@ image:
   file: .gitpod.dockerfile
   context: apache
 ports:
-- port: 8080
+- port: 8001
   onOpen: open-preview
 tasks:
 - name: Terminal
