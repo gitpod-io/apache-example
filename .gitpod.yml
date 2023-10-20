@@ -3,7 +3,7 @@ image:
   context: apache
 ports:
 - port: 8080
-  onOpen: open-preview
+  onOpen: open-browser
 tasks:
 - name: Terminal
   command: >
