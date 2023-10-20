@@ -1,8 +1,6 @@
 
 <?php
 
-//Now on Github
-
 // Debug function => Plots to console
 function debug_to_console($data) {
     $output = $data;
