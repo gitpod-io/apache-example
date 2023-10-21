@@ -1,5 +1,8 @@
 FROM gitpod/workspace-full:latest
 
+# install php Xdebug
+RUN sudo install-packages php-xdebug
+
 # optional: use a custom apache config.
 COPY apache.conf /etc/apache2/apache2.conf
 
