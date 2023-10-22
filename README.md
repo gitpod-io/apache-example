@@ -2,7 +2,7 @@
 
 ## Try or Contribute
 
-open [https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug](https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug)
 
 This is a template repo, you can create your own using this as a template. Or let Gitpod handle the fork on first commit.
 
