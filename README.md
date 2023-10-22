@@ -1,23 +1,23 @@
-# Example how to run the Apache Web Server in Gitpod.io
+# Template repo to run the Apache Web Server with PHP and XDebug in Gitpod.io
 
 ## Try or Contribute
 
-open [https://gitpod.io#https://github.com/gitpod-io/apache-example](https://gitpod.io#https://github.com/gitpod-io/apache-example)
+open [https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug](https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug)
+
+This is a template repo, you can create your own using this as a template. Or let Gitpod handle the fork on first commit.
 
 ## What this Example does
 
-* use the Dockerfile to configure Apache
-* optional: use a custom and minimal apache.conf. If you don't do this, the default from workspace-full will be used.
-* follow the Apache logs in the Gitpod Terminal View via multitail
-* run apache on port 8080
+* Uses the Dockerfile to configure Apache and XDebug (based on Gitpod Image "workspace-full" which includes PHP)
+* Runs apache on port 8080
+* Added a custom and minimal apache.conf. 
+* Follows the Apache logs in the Gitpod Terminal View via multitail
+* Adds PHP Xdebug extension to VSCode
+* XDebug arguments are passed on the fly from VSCode 
 
-## Terminal Commands to try
+## Terminal Commands to try to control Apache
 * `apachectl start` - start Apache Web Server (it's started automatically on workspace launch)
 * `apachectl stop` - stop Apache Web Server
 * `gp open /var/log/apache2/access.log` - Open Apache access.log in Gitpod editor
 * `gp open /var/log/apache2/error.log` - Open Apache error.log in Gitpod editor
 * `multitail /var/log/apache2/access.log -I /var/log/apache2/error.log` - View and follow logs in Terminal
-
-## How it looks like
-
-![Screenshot](/screenshot.png)

@@ -1,9 +1,10 @@
+
 image:
   file: .gitpod.dockerfile
   context: apache
 ports:
 - port: 8080
-  onOpen: open-preview
+  onOpen: open-browser
 tasks:
 - name: Terminal
   command: >
@@ -17,3 +18,7 @@ tasks:
   command: >
     apachectl start &&
     multitail /var/log/apache2/access.log -I /var/log/apache2/error.log
+
+vscode:
+  extensions:
+    - felixfbecker.php-debug

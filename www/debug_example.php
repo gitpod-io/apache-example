@@ -1,5 +1,7 @@
 <?php
 
+// This is here just to test the Xdebug functions
+
 define('TEST_CONSTANT', 123);
 
 $anArray = array(1, 'test' => 2, 'test2' => ['t' => 123]);
