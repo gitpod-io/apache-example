@@ -6,7 +6,7 @@
 
 This is a template repo, you can create your own using this as a template. Or let Gitpod handle the fork on first commit.
 
-## What this Example does
+## What this does
 
 * Uses the Dockerfile to configure Apache and XDebug (based on Gitpod Image "workspace-full" which includes PHP)
 * Runs apache on port 8080
