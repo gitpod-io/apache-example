@@ -1,0 +1,24 @@
+
+image:
+  file: .gitpod.dockerfile
+  context: apache
+ports:
+- port: 8080
+  onOpen: open-browser
+tasks:
+- name: Terminal
+  command: >
+    echo "";
+    echo "Commands you can try:";
+    echo " * apachectl stop";
+    echo " * apachectl start";
+    echo " * gp open /var/log/apache2/access.log";
+    echo " * gp open /var/log/apache2/error.log";
+- name: Apache
+  command: >
+    apachectl start &&
+    multitail /var/log/apache2/access.log -I /var/log/apache2/error.log
+
+vscode:
+  extensions:
+    - felixfbecker.php-debug
