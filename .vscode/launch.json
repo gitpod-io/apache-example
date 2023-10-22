@@ -10,8 +10,8 @@
             "request": "launch",
             "port": 9003,
             "pathMappings": {
-                "${GITPOD_REPO_ROOT}/www":"${workspaceRoot}/www",
-            },
+                "${env:GITPOD_REPO_ROOT}/www": "${workspaceFolder}/www"
+            }
         },
         {
             "name": "Launch currently open script",
