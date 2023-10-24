@@ -2,7 +2,7 @@
 
 ## ⚠️ Note on Xdebug
 
-There's a known issue with Xdebug's server listening feature. You can track the progress and share any suggestions in the [GitHub issue](https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug/issues/1). Thanks for your patience!
+There's a known issue with Xdebug's server listening feature. You can track the progress and share any suggestions in the [GitHub issue](https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug/issues/1). Thanks for your help!
 
 
 ## Try or Contribute
