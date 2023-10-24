@@ -1,5 +1,10 @@
 # Template repo to run the Apache Web Server with PHP and XDebug in Gitpod.io
 
+## ⚠️ Note on Xdebug
+
+There's a known issue with Xdebug's server listening feature. You can track the progress and share any suggestions in the [GitHub issue](https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug/issues/1). Thanks for your patience!
+
+
 ## Try or Contribute
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug)
