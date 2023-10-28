@@ -1,7 +1,7 @@
 
 image:
   file: .gitpod.dockerfile
-  context: apache
+  context: .env
   
 ports:
 - port: 8080
