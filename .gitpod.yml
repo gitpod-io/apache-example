@@ -12,8 +12,8 @@ ports:
 tasks:
 - name: Apache
   init: >
-      sudo cp .env/xdebug_cli.ini /etc/php/8.2/cli/conf.d/99-custom.ini &&
-      sudo cp .env/xdebug_web.ini /etc/php/8.2/apache2/conf.d/99-custom.ini
+    sudo cp .env/xdebug_cli.ini /etc/php/8.2/cli/conf.d/99-custom.ini &&
+    sudo cp .env/xdebug_web.ini /etc/php/8.2/apache2/conf.d/99-custom.ini
   command: >
     apachectl start &&
     multitail /var/log/apache2/access.log -I /var/log/apache2/error.log
