@@ -1,10 +1,5 @@
 # Template repo to run the Apache Web Server with PHP and XDebug in Gitpod.io
 
-## ⚠️ Note on Xdebug
-
-There's a known issue with Xdebug's server listening feature. You can track the progress and share any suggestions in the [GitHub issue](https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug/issues/1). Thanks for your help!
-
-
 ## Try or Contribute
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io#https://github.com/Eetezadi/Gitpod-Apache-PHP-Xdebug)
@@ -17,8 +12,6 @@ This is a template repo, you can create your own using this as a template. Or le
 * Runs apache on port 8080
 * Added a custom and minimal apache.conf. 
 * Follows the Apache logs in the Gitpod Terminal View via multitail
-* Adds PHP Xdebug extension to VSCode
-* XDebug arguments are passed on the fly from VSCode 
 
 ## Terminal Commands to try to control Apache
 * `apachectl start` - start Apache Web Server (it's started automatically on workspace launch)
