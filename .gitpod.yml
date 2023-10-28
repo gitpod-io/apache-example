@@ -11,11 +11,11 @@ ports:
 
 tasks:
 - name: config
-  init: |
-      cd .env
-      cp xdebug_cli.ini /etc/php/8.2/cli/conf.d/99-custom.ini
-      cp xdebug_web.ini /etc/php/8.2/apache2/conf.d/99-custom.ini
-      cp apache.conf /etc/apache2/apache2.conf
+  command: >
+      cd .env &&
+      cp xdebug_cli.ini /etc/php/8.2/cli/conf.d/99-custom.ini &&
+      cp xdebug_web.ini /etc/php/8.2/apache2/conf.d/99-custom.ini &&
+      cp apache.conf /etc/apache2/apache2.conf &&
 - name: Apache
   command: >
     apachectl start &&
