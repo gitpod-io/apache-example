@@ -1,4 +1,4 @@
-# Template repo to run the Apache Web Server with PHP and XDebug in Gitpod.io
+# Template repo to run the Apache2 Web Server with PHP and XDebug in Gitpod.io
 
 ## Try or Contribute
 
