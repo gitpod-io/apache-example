@@ -12,7 +12,7 @@ This is a template repo, you can create your own using this as a template. Or le
 * Runs apache on port 8080 and serves from "www"
 * Added a custom and minimal apache.conf. 
 * Follows the Apache logs in the Gitpod terminal view via multitail
-* If you need a mySQL database you may want to try [!https://github.com/Eetezadi/Gitpod-LAMP](https://github.com/Eetezadi/Gitpod-LAMP)
+* If you need a mySQL database you may want to try [https://github.com/Eetezadi/Gitpod-LAMP](https://github.com/Eetezadi/Gitpod-LAMP)
 
 ## What this does
 * Wait until the preview loads...
