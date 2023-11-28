@@ -14,7 +14,7 @@ This is a template repo, you can create your own using this as a template. Or le
 * Follows the Apache logs in the Gitpod terminal view via multitail
 * If you need a mySQL database you may want to try [https://github.com/Eetezadi/Gitpod-LAMP](https://github.com/Eetezadi/Gitpod-LAMP)
 
-## What this does
+## What you can do
 * Wait until the preview loads...
 * Text xdebug on the debug_example
 * Use for your own project.
